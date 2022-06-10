@@ -1,0 +1,33 @@
+{
+  "name": "cra-template-default-optimized-js",
+  "title": "Optimized Default CRA Template with Popular Basic Packages, Opinionated Lint, and Incorporated Prettier",
+  "version": "1.0.0",
+  "description": "Basic default CRA template with popular packages (Lodash, Axios, UUID, Date-fns), types, and strongly opinionated EsLint based on Airbnb Style Guide.",
+  "main": "template.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "default",
+    "basic",
+    "airbnb",
+    "style guide",
+    "types",
+    "lodash",
+    "template",
+    "reactjs",
+    "folder structure",
+    "generate templates",
+    "react-router-dom",
+    "eslint",
+    "prettier"
+  ],
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "license": "MIT"
+}
