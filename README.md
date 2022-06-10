@@ -51,6 +51,8 @@ IDE's Types for:
 - React w/ Dom
 - UUID
 
+---
+
 ## Usage
 
 ```bash
