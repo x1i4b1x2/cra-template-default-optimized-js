@@ -39,7 +39,8 @@ Simple Common Scripts:
 - analyze: "source-map-explorer 'build/static/js/\*.js'",
 - coverage: "npm test -- --coverage",
 - lint: "npx eslint -c .eslintrc.json --ext .js,.jsx .",
-- lint:fix: "npm run lint -- --fix"
+- lint:fix: "npm run lint -- --fix",
+- test:debug: "react-scripts --inspect-brk test --runInBand --no-cache"
 
 ---
 
