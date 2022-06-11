@@ -1,4 +1,4 @@
-import { isFunction } from 'lodash/isFunction';
+import isFunction from 'lodash/isFunction';
 
 const reportWebVitals = (onPerfEntry) => {
   if (onPerfEntry && isFunction(onPerfEntry)) {
