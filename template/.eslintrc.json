@@ -55,6 +55,14 @@
         }
       }
     ],
+    "unicorn/prevent-abbreviations": [
+      "error",
+      {
+        "allowList": {
+          "props": true
+        }
+      }
+    ],
     "react/function-component-definition": [
       "error",
       {
