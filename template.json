@@ -1,6 +1,8 @@
 {
   "package": {
     "dependencies": {
+      "@primer/css": "^20.2.2",
+      "@primer/stylelint-config": "^12.6.1",
       "@testing-library/jest-dom": "^5.16.4",
       "@testing-library/react": "^13.3.0",
       "@testing-library/user-event": "^13.5.0",
@@ -33,14 +35,21 @@
       "react-dom": "^18.1.0",
       "react-scripts": "5.0.1",
       "source-map-explorer": "^2.5.2",
+      "stylelint": "^14.9.1",
+      "stylelint-config-prettier": "^9.0.3",
+      "stylelint-config-recommended": "^8.0.0",
+      "stylelint-config-standard": "^26.0.0",
+      "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
       "uuid": "^8.3.2",
       "web-vitals": "^2.1.4"
     },
     "scripts": {
       "analyze": "source-map-explorer 'build/static/js/*.js'",
       "coverage": "npm test -- --coverage",
-      "lint": "npx eslint -c .eslintrc.json --ext .js,.jsx .",
+      "lint": "npx eslint 'src/**/*.{js,ts,jsx,tsx}'",
       "lint:fix": "npm run lint -- --fix",
+      "stylelint": "npx stylelint 'src/**/*.{css,less,scss,sass}'",
+      "stylelint:fix": "npm run stylelint -- --fix",
       "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache"
     },
     "eslintConfig": {}
