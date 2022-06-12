@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "Basic default CRA template with popular packages (Lodash, Axios, UUID, Date-fns), types, and strongly opinionated EsLint based on Airbnb Style Guide.",
   "main": "template.json",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/x1i4b1x2/cra-template-default-optimized-js",
@@ -37,6 +38,5 @@
   "files": [
     "template",
     "template.json"
-  ],
-  "license": "MIT"
+  ]
 }
