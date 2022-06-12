@@ -1,6 +1,6 @@
 # CRA Template Default Optimized Javascript
 
-## Optimized Default CRA Template with Popular Basic Packages, Types, Opinionated Lint, and Incorporated Prettier
+## Optimized Default CRA Template with Popular Basic Packages, Types, Opinionated Linters, and Incorporated Prettier
 
 Default basic [Create React App](https://github.com/facebook/create-react-app) (CRA) template that includes:
 
@@ -18,7 +18,7 @@ Basic Popular Packages:
 
 ---
 
-Opinionated Linter based on:
+Opinionated Javascript Linter based on:
 
 - Airbnb Style Guide
 - Import
@@ -34,12 +34,23 @@ Opinionated Linter based on:
 
 ---
 
+Opinionated CSS Linter based on:
+
+- Recommended base config Stylelint
+- Standard config (Airbnb, Google, Idiomatic, @mdo), extended from Recommended
+- Primer config GitHub CSS Style Guide, extended from Standard
+- Block Ignored Properties add-on
+
+---
+
 Simple Common Scripts:
 
 - analyze: "source-map-explorer 'build/static/js/\*.js'",
 - coverage: "npm test -- --coverage",
 - lint: "npx eslint -c .eslintrc.json --ext .js,.jsx .",
 - lint:fix: "npm run lint -- --fix",
+- stylelint: "npx stylelint 'src/\*_/_.{css,less,scss,sass}'",
+- stylelint:fix: "npm run stylelint -- --fix",
 - test:debug: "react-scripts --inspect-brk test --runInBand --no-cache"
 
 ---
