@@ -10,6 +10,7 @@ Basic Popular Packages:
 - Axios
 - Date-fns
 - Eslint
+- Stylelint
 - Prettier
 - UUID
 - Source Map Explorer
