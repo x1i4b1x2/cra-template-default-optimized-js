@@ -1,6 +1,25 @@
+## 2.0.0 (2022-06-12)
+
+cra-template-default-optimized-js 2.0.0 is a maintenance release that introduces CSS linter stylelint with an opinionated configuration.
+
+### Bug Fix
+
+- [01d39f3](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/01d39f32a8de75984fa9cc13cc2a827745bd23df) Add class in body html
+
+### Template
+
+- [b07e781](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/b07e78128f3d7eaf598b77d33f331b480e80ec2a) Updates files according to stylelint linter
+
+### Configuration
+
+- [7ff26b5](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/7ff26b56092ae7f074de2e9c6c20510db8c52959) Add changelog
+- [96da5b6](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/96da5b6d36ca3631ff75bc8ab801b3f08d65c47a) Add stylelint to template.json
+- [9df4f7b](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/9df4f7bef033888512b848c2dc318d5753ca76f2) Add stylelint configuration file
+- [a59c3c7](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/a59c3c7f6c229c0d659d7d89f7d422dacfa20b6a) Update readme
+
 ## 1.1.0 (2022-06-11)
 
-cra-template-default-optimized-js 1.10 is a maintenance release that sets up debug scripts, and adjust configuration files.
+cra-template-default-optimized-js 1.1.0 is a maintenance release that sets up debug scripts, and adjust configuration files.
 
 ### Bug Fix
 
