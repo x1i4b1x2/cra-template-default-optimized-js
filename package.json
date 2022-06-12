@@ -4,6 +4,15 @@
   "version": "1.0.0",
   "description": "Basic default CRA template with popular packages (Lodash, Axios, UUID, Date-fns), types, and strongly opinionated EsLint based on Airbnb Style Guide.",
   "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x1i4b1x2/cra-template-default-optimized-js",
+    "directory": "/"
+  },
+  "homepage": "https://github.com/x1i4b1x2/cra-template-default-optimized-js",
+  "bugs": {
+    "url": "https://github.com/x1i4b1x2/cra-template-default-optimized-js/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
