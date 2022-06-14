@@ -22,6 +22,7 @@
     "plugin:security/recommended",
     "plugin:testing-library/react",
     "plugin:unicorn/recommended",
+    "plugin:you-dont-need-lodash-underscore/compatible",
     "prettier"
   ],
   "plugins": ["unicorn", "react", "lodash"],
