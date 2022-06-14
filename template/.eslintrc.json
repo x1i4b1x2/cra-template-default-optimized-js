@@ -15,7 +15,6 @@
     "plugin:jest/style",
     "plugin:jest-formatting/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:jsdoc/recommended",
     "plugin:lodash/recommended",
     "plugin:promise/recommended",
     "plugin:react/recommended",
@@ -23,9 +22,10 @@
     "plugin:security/recommended",
     "plugin:testing-library/react",
     "plugin:unicorn/recommended",
+    "plugin:you-dont-need-lodash-underscore/compatible",
     "prettier"
   ],
-  "plugins": ["unicorn", "react"],
+  "plugins": ["unicorn", "react", "lodash"],
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -63,12 +63,19 @@
         }
       }
     ],
-    "react/function-component-definition": [
-      "error",
-      {
-        "namedComponents": ["function-declaration", "arrow-function"],
-        "unnamedComponents": ["function-expression", "arrow-function"]
-      }
-    ]
+    "react/prop-types": 0,
+    "lodash/prefer-constant": 0,
+    "lodash/prefer-get": 0,
+    "lodash/prefer-includes": 0,
+    "lodash/prefer-is-nil": 0,
+    "lodash/prefer-lodash-chain": 0,
+    "lodash/prefer-lodash-method": 0,
+    "lodash/prefer-lodash-typecheck": 0,
+    "lodash/prefer-matches": 0,
+    "lodash/prefer-noop": 0,
+    "lodash/prefer-over-quantifier": 0,
+    "lodash/prefer-some": 0,
+    "lodash/prefer-startswith": 0,
+    "lodash/prefer-times": 0
   }
 }
