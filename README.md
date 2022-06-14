@@ -24,9 +24,9 @@ Opinionated Javascript Linter based on:
 - Airbnb Style Guide
 - Import
 - Jest w/ Formatting
-- JSdoc
 - JSX-a11y
 - Lodash
+- You-Dont-Need-Lodash (prefers native js methods when possible)
 - Promises
 - React w/ Hooks
 - Security
@@ -48,9 +48,9 @@ Simple Common Scripts:
 
 - analyze: "source-map-explorer 'build/static/js/\*.js'",
 - coverage: "npm test -- --coverage",
-- lint: "npx eslint -c .eslintrc.json --ext .js,.jsx .",
+- lint: "npx eslint 'src/**/*.{js,ts,jsx,tsx}'",
 - lint:fix: "npm run lint -- --fix",
-- stylelint: "npx stylelint 'src/\*_/_.{css,less,scss,sass}'",
+- stylelint: "npx stylelint 'src/**/*.{css,less,scss,sass}'",
 - stylelint:fix: "npm run stylelint -- --fix",
 - test:debug: "react-scripts --inspect-brk test --runInBand --no-cache"
 

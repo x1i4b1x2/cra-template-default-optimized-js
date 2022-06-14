@@ -1,8 +1,8 @@
 {
   "name": "cra-template-default-optimized-js",
-  "title": "Optimized Default CRA Template with Popular Basic Packages, Opinionated Lint, and Incorporated Prettier",
-  "version": "2.0.0",
-  "description": "Basic default CRA template with popular packages (Lodash, Axios, UUID, Date-fns), types, and strongly opinionated EsLint based on Airbnb Style Guide.",
+  "title": "Optimized Default CRA Template with Popular Basic Packages, Opinionated Linters, and Incorporated Prettier",
+  "version": "2.1.0",
+  "description": "Basic default CRA template with popular packages (Lodash, Axios, UUID, Date-fns), types, and strongly opinionated Linters based on Airbnb Style Guide.",
   "main": "template.json",
   "license": "MIT",
   "repository": {

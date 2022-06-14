@@ -1,3 +1,23 @@
+## 2.1.0 (2022-06-14)
+
+cra-template-default-optimized-js 2.1.0 is a maintenance release that adjust linters plugins and configuration files.
+
+### Folder Structure
+
+- [ec205ee](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/ec205ee7ddc6f467c0a73824463ee8781561ce60) Reorganize files
+
+### Packages
+
+- [1fd81c1](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/1fd81c1336c92784ce3b696e5e0e6d529150be1f) Install you-dont-need-lodash plugin for Eslint
+
+### Configuration
+
+- [dcff9e9](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/dcff9e903e446c2f1d6a1ef95748cf4aede57ee3) Uninstall Eslint plugin:jsdoc/recommended
+- [8e8bd95](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/8e8bd95141a9491e7d63d3bddf3dacb8e741c086) Restore "react/function-component-definition" rule
+- [e227d10](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/e227d10bf47643253e8fd7ce20e6b60f295892d4) Disable prop-types/react eslint
+- [a798320](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/a798320500be76794a6cee3bc1058e292f4f1e5b) Disable prefer lodash method eslint
+- [4527282](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/45272827f410ca453c39373177039e2ff02ebe64) Update packages
+
 ## 2.0.0 (2022-06-12)
 
 cra-template-default-optimized-js 2.0.0 is a maintenance release that introduces CSS linter stylelint with an opinionated configuration.
