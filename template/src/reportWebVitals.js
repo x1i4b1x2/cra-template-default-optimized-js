@@ -1,7 +1,5 @@
-import isFunction from 'lodash/isFunction';
-
-const reportWebVitals = (onPerfEntry) => {
-  if (onPerfEntry && isFunction(onPerfEntry)) {
+export default function reportWebVitals(onPerfEntry) {
+  if (onPerfEntry && typeof onPerfEntry === 'function') {
     import('web-vitals')
       .then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
         getCLS(onPerfEntry);
@@ -13,6 +11,4 @@ const reportWebVitals = (onPerfEntry) => {
       })
       .catch((error) => new Error(error));
   }
-};
-
-export default reportWebVitals;
+}
