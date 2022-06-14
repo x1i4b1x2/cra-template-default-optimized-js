@@ -15,7 +15,6 @@
     "plugin:jest/style",
     "plugin:jest-formatting/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:jsdoc/recommended",
     "plugin:lodash/recommended",
     "plugin:promise/recommended",
     "plugin:react/recommended",
