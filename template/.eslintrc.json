@@ -61,13 +61,6 @@
           "props": true
         }
       }
-    ],
-    "react/function-component-definition": [
-      "error",
-      {
-        "namedComponents": ["function-declaration", "arrow-function"],
-        "unnamedComponents": ["function-expression", "arrow-function"]
-      }
     ]
   }
 }
