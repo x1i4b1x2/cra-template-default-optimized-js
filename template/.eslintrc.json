@@ -24,7 +24,7 @@
     "plugin:unicorn/recommended",
     "prettier"
   ],
-  "plugins": ["unicorn", "react"],
+  "plugins": ["unicorn", "react", "lodash"],
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -62,6 +62,19 @@
         }
       }
     ],
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "lodash/prefer-constant": 0,
+    "lodash/prefer-get": 0,
+    "lodash/prefer-includes": 0,
+    "lodash/prefer-is-nil": 0,
+    "lodash/prefer-lodash-chain": 0,
+    "lodash/prefer-lodash-method": 0,
+    "lodash/prefer-lodash-typecheck": 0,
+    "lodash/prefer-matches": 0,
+    "lodash/prefer-noop": 0,
+    "lodash/prefer-over-quantifier": 0,
+    "lodash/prefer-some": 0,
+    "lodash/prefer-startswith": 0,
+    "lodash/prefer-times": 0
   }
 }
