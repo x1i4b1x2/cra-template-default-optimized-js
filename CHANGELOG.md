@@ -1,3 +1,15 @@
+## 2.2.0 (2022-06-17)
+
+cra-template-default-optimized-js 2.2.0 is a maintenance release that introduces eslint-plugin-jest-dom.
+
+### Packages
+
+- [24b46e4](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/24b46e41c178a4cbcd08968e63b1ed0cd2220e28) Add eslint-jest-dom plugin
+
+### Configuration
+
+- [43b4725](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/43b4725156ed62da71201e9bf1aa4d13eb3ea92a) Update readme
+
 ## 2.1.0 (2022-06-14)
 
 cra-template-default-optimized-js 2.1.0 is a maintenance release that adjust linters plugins and configuration files.
