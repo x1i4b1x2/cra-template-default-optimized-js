@@ -23,7 +23,7 @@ Opinionated Javascript Linter based on:
 
 - Airbnb Style Guide
 - Import
-- Jest w/ Formatting
+- Jest w/ Formatting and Dom
 - JSX-a11y
 - Lodash
 - You-Dont-Need-Lodash (prefers native js methods when possible)
