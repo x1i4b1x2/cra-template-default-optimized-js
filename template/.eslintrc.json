@@ -13,6 +13,7 @@
     "plugin:import/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
+    "plugin:jest-dom/recommended",
     "plugin:jest-formatting/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:lodash/recommended",
