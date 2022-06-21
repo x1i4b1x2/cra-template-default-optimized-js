@@ -45,7 +45,6 @@
       "version": "detect"
     }
   },
-  "ignorePatterns": ["/build"],
   "rules": {
     "unicorn/filename-case": [
       "error",
