@@ -1,3 +1,21 @@
+## 2.3.0 (2022-06-21)
+
+cra-template-default-optimized-js 2.3.0 is a maintenance release that introduces browser-router and various fixes.
+
+### Packages
+
+- [c0bbd81](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/c0bbd81e00f2eb7f081d77a1d307be60bbf110d9) Add eslint-plugin-eslint-comments
+- [cb2844a](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/cb2844aac04c9f4b7c706cd9060c39dc756a2f16) Add BrowserRouter
+
+### Folder Structure
+
+- [5301c80](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/5301c80e8e1f4325e7c9433b45cc2d411be7d4bb) Reorganize Components folder
+
+### Configuration
+
+- [24c9594](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/24c959456f8599b6c09418996daadcbee0b9958e) Remove test:debug
+- [91022fd](https://github.com/x1i4b1x2/cra-template-default-optimized-js/commit/91022fde1af1244ec118c12a0f2acac0e11cfb73) Add ESLint ignore
+
 ## 2.2.0 (2022-06-17)
 
 cra-template-default-optimized-js 2.2.0 is a maintenance release that introduces eslint-plugin-jest-dom.
