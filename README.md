@@ -52,7 +52,6 @@ Simple Common Scripts:
 - lint:fix: "npm run lint -- --fix",
 - stylelint: "npx stylelint 'src/**/*.{css,less,scss,sass}'",
 - stylelint:fix: "npm run stylelint -- --fix",
-- test:debug: "react-scripts --inspect-brk test --runInBand --no-cache"
 
 ---
 
