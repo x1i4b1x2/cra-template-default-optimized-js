@@ -13,6 +13,7 @@ Basic Popular Packages:
 - Stylelint
 - Prettier
 - UUID
+- React Router Dom
 - Source Map Explorer
 - Testing Libraries
 - Web Vitals
@@ -61,6 +62,7 @@ IDE's Types for:
 - Lodash
 - Node
 - React w/ Dom
+- React Router Dom
 - UUID
 
 ---
