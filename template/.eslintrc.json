@@ -10,6 +10,7 @@
     "airbnb",
     "airbnb/hooks",
     "eslint:recommended",
+    "plugin:eslint-comments/recommended",
     "plugin:import/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
@@ -26,7 +27,7 @@
     "plugin:you-dont-need-lodash-underscore/compatible",
     "prettier"
   ],
-  "plugins": ["unicorn", "react", "lodash"],
+  "plugins": ["unicorn", "react", "lodash", "eslint-comments"],
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -76,6 +77,7 @@
     "lodash/prefer-over-quantifier": 0,
     "lodash/prefer-some": 0,
     "lodash/prefer-startswith": 0,
-    "lodash/prefer-times": 0
+    "lodash/prefer-times": 0,
+    "eslint-comments/disable-enable-pair": ["error", { "allowWholeFile": true }]
   }
 }
